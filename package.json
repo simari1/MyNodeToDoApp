@@ -1,0 +1,32 @@
+{
+  "name": "mynodetodoapp",
+  "version": "1.0.0",
+  "description": "My Node ToDo app",
+  "main": "app.js",
+  "scripts": {
+    "watch": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simari1/MyNodeToDoApp.git"
+  },
+  "author": "simari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simari1/MyNodeToDoApp/issues"
+  },
+  "homepage": "https://github.com/simari1/MyNodeToDoApp#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "log4js": "^6.3.0",
+    "nodemon": "^2.0.13",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
